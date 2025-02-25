@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px; /* Ajusta el tamaño de tu imagen */
+    border-radius: 50%; /* Opcional: hace la imagen circular */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: block;
+    background-color: #007bff; /* Color azul, cámbialo a tu gusto */
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 25px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+.whatsapp {
+    background-color: #25d366; /* Verde de WhatsApp */
+}
+
+.whatsapp:hover {
+    background-color: #1da851;
+}
